@@ -1,0 +1,40 @@
+# include <iostream>
+using namespace std;
+
+int main() {
+
+  char op;
+  float a, b;
+
+  cout << "Enter operator: +, -, *, /: ";
+  cin >> op;
+
+  cout << "Enter a and b values: ";
+  cin >> a >> b;
+
+  switch(op) {
+
+    case '+':
+      cout << "addition ="<< a + b;
+      break;
+
+    case '-':
+      cout << "subtraction =" << a-b;
+      break;
+
+    case '*':
+      cout <<"mutiplication="<< a* b;
+      break;
+
+    case '/':
+      cout << "division ="<< a / b;
+      break;
+
+    default:
+      
+      cout << "Invalid operator";
+      break;
+  }
+
+  return 0;
+}
