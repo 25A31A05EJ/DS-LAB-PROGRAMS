@@ -2,6 +2,9 @@
 using namespace std;
 int main()
 {
-cout<<"Gowthami"<<endl<<"CSE"<<endl<<"5EJ"<<"\n"<<"SEC-D";
+cout<<"Gowthami"<<endl;
+cout<<"CSE"<<endl;
+cout<<"5EJ"<<"\n";
+cout<<"SEC-D";
 return 0;
 }
