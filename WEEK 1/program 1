@@ -1,0 +1,7 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+cout<<"Gowthami"<<endl<<"CSE"<<endl<<"5EJ"<<"\n"<<"SEC-D";
+return 0;
+}
